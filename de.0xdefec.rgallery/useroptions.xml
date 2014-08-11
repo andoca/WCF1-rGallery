@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="settings.rgallery">
+				<parent>settings</parent>
+				<menuicon>rGalleryS.png</menuicon>
+			</category>
+		</categories>
+		<options>
+			<option name="rgallery_allowComments">
+				<categoryname>settings.rgallery</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="rgallery_allowRating">
+				<categoryname>settings.rgallery</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="de.0xdefec.rgallerybbcodes">
+	<packageInformation>
+		<packageName><![CDATA[rGallery BBCodes]]></packageName>
+		<packageDescription language="en"><![CDATA[BBCodes for the rGallery]]></packageDescription>
+		<packageDescription language="de"><![CDATA[BBCodes für die rGallery]]></packageDescription>
+		<packageurl><![CDATA[http://rgallery.andreas-diendorfer.at]]></packageurl>
+		<version>1.4 beta 1</version>
+		<date>2009-11-01</date>
+		<plugin>com.woltlab.wcf</plugin>
+		<isunique>1</isunique>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[Andreas Diendorfer]]></author>
+		<authorURL><![CDATA[http://www.andreas-diendorfer.at]]></authorURL>
+	</authorInformation>
+	
+	<!-- requiredpackages>
+		<requiredpackage minversion="1.0.0">com.woltlab.wcf.data.message.bbcode</requiredpackage>
+		<requiredpackage minversion="1.0.0">de.0xdefec.rgallery</requiredpackage>
+	</requiredpackages -->
+
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<bbcodes>bbcodes.xml</bbcodes>
+	</instructions>
+
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<bbcodes>bbcodes.xml</bbcodes>
+	</instructions>
+</package>

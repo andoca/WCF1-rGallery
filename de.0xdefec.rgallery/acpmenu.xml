@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+		<acpmenuitem name="wcf.acp.rgallery">
+			<parent>wcf.acp.menu.link.content</parent>
+			<showorder>4</showorder>
+			<permissions>admin.system.canEditOption</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.rgallery_cats">
+			<parent>wcf.acp.rgallery</parent>
+			<link>index.php?form=RGalleryCats</link>
+			<showorder>1</showorder>
+			<permissions>admin.system.canEditOption</permissions>
+		</acpmenuitem>
+	</import>
+</data>

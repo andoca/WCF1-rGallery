@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+
+<package name="de.0xdefec.rgallery">
+	<packageInformation>
+		<packageName><![CDATA[rGallery]]></packageName>
+		<packageDescription language="en"><![CDATA[rGallery allows users to add images to a shared gallery.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Die rGallery ermöglicht es Ihren Benutzern, Bilder zu einer gemeinsamen Galerie hinzuzufügen.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<isUnique>1</isUnique>
+		<version>1.4.4 beta 2</version>
+		<date>2013-04-02</date>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[Andoca Haustier-WG UG (haftungsbeschränkt)]]></author>
+		<authorURL><![CDATA[http://www.andoca.de]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1 alpha 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<optionalpackages>
+		<optionalpackage file="optionals/de.0xdefec.rgallerybbcodes.tar.gz">de.0xdefec.rgallerybbcodes</optionalpackage>
+		<optionalpackage file="optionals/de.0xdefec.rgallery.wbb3Package.tar.gz">de.0xdefec.rgallery.wbb3Package</optionalpackage>
+	</optionalpackages>
+	
+	<instructions type="install">
+		<sql>database.sql</sql>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<cronjobs>cronjobs.xml</cronjobs>
+		<pagelocation>pagelocation.xml</pagelocation>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<pagemenu>pagemenu.xml</pagemenu>
+		<usercpmenu>usercpmenu.xml</usercpmenu>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<useroptions>useroptions.xml</useroptions>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<options>options.xml</options>
+		<feedsource>feedsource.xml</feedsource>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.4.2">
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<feedsource>feedsource.xml</feedsource>
+		<files>files.tar</files>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.4.3">
+		<files>files.tar</files>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.4.4 beta 1">
+		<files>files.tar</files>
+	</instructions>
+</package>

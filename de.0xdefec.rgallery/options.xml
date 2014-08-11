@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.0xdefec.rgallery"></category>
+
+			<category name="de.0xdefec.rgallery.config.path">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.thumbs">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.tthumbs">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.preview">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.image">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.allowed_extensions">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.display">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+			<category name="de.0xdefec.rgallery.config.advanced">
+				<parent>de.0xdefec.rgallery</parent>
+			</category>
+		</categories>
+
+		<options>
+			<option name="RGALLERY_IMAGE_PATH">
+				<categoryname>de.0xdefec.rgallery.config.path</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>rG_data</defaultvalue>
+			</option>
+			<option name="RGALLERY_HTTP_PATH">
+				<categoryname>de.0xdefec.rgallery.config.path</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>http://www.mydomain.tld/forum</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="RGALLERY_USE_CONVERT">
+				<categoryname>de.0xdefec.rgallery.config.path</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue><![CDATA[0]]></defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="RGALLERY_THUMB_SIZE">
+				<categoryname>de.0xdefec.rgallery.config.thumbs</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>100</defaultvalue>
+			</option>
+			<option name="RGALLERY_THUMB_COMPRESSION">
+				<categoryname>de.0xdefec.rgallery.config.thumbs</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>55</defaultvalue>
+			</option>
+			<option name="RGALLERY_TTHUMB_SIZE">
+				<categoryname>de.0xdefec.rgallery.config.tthumbs</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>50</defaultvalue>
+			</option>
+			<option name="RGALLERY_TTHUMB_COMPRESSION">
+				<categoryname>de.0xdefec.rgallery.config.tthumbs</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>65</defaultvalue>
+			</option>
+			<option name="RGALLERY_PREVIEW_SIZE_W">
+				<categoryname>de.0xdefec.rgallery.config.preview</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>400</defaultvalue>
+			</option>
+			<option name="RGALLERY_PREVIEW_SIZE_H">
+				<categoryname>de.0xdefec.rgallery.config.preview</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>250</defaultvalue>
+			</option>
+			<option name="RGALLERY_PREVIEW_COMPRESSION">
+				<categoryname>de.0xdefec.rgallery.config.preview</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>75</defaultvalue>
+			</option>
+			<option name="RGALLERY_IMAGE_SIZE_W">
+				<categoryname>de.0xdefec.rgallery.config.image</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>700</defaultvalue>
+			</option>
+			<option name="RGALLERY_IMAGE_SIZE_H">
+				<categoryname>de.0xdefec.rgallery.config.image</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>500</defaultvalue>
+			</option>
+			<option name="RGALLERY_IMAGE_COMPRESSION">
+				<categoryname>de.0xdefec.rgallery.config.image</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>85</defaultvalue>
+			</option>
+			<option name="RGALLERY_WATERMARK">
+				<categoryname>de.0xdefec.rgallery.config.image</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue><![CDATA[0]]></defaultvalue>
+			</option>
+			<option name="RGALLERY_MIN_SIZE_W">
+				<categoryname>de.0xdefec.rgallery.config.image</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>400</defaultvalue>
+			</option>
+			<option name="RGALLERY_MIN_SIZE_H">
+				<categoryname>de.0xdefec.rgallery.config.image</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>250</defaultvalue>
+			</option>
+
+			<option name="RGALLERY_ALLOWED_EXTENSIONS">
+				<categoryname>de.0xdefec.rgallery.config.allowed_extensions</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[jpg, jpeg, gif, png]]></defaultvalue>
+			</option>
+			<option name="RGALLERY_UPLOADS_AT_ONCE">
+				<categoryname>de.0xdefec.rgallery.config.allowed_extensions</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>10</defaultvalue>
+			</option>
+			<option name="RGALLERY_IMAGES_PER_USER_PAGE">
+				<categoryname>de.0xdefec.rgallery.config.display</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>12</defaultvalue>
+			</option>
+			<option name="RGALLERY_IMAGES_PER_PAGE">
+				<categoryname>de.0xdefec.rgallery.config.display</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>15</defaultvalue>
+			</option>
+			<option name="RGALLERY_SHOW_TOOLTIPS">
+				<categoryname>de.0xdefec.rgallery.config.display</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue><![CDATA[1]]></defaultvalue>
+			</option>
+			<option name="RGALLERY_COLOR_TAGS">
+				<categoryname>de.0xdefec.rgallery.config.display</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue><![CDATA[1]]></defaultvalue>
+			</option>
+			<option name="RGALLERY_SAFE_MODE_CHECK">
+				<categoryname>de.0xdefec.rgallery.config.advanced</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue><![CDATA[1]]></defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

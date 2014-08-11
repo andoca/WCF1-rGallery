@@ -1,0 +1,16 @@
+rGallery 1.x license
+http://www.selbstzweck.net
+
+rGallery is a free plugin. It aims to support free projectes.
+
+It is licensed under a creative commons by-nc-nd 3.0 at (http://creativecommons.org/licenses/by-nc-nd/3.0/at/). Please read this license carefully!
+
+Keep this points in mind:
+	- NO COMMERCIAL USAGE - don't use the plugin on commercial webpages
+	- COPYRIGHT MESSAGE - don't edit or remove the copyright message
+	- SUPPORT - either by submiting patches or send donations via paypal
+	- NO RESPONSABILITY - this package is provided "as is". You're responsible for backups.
+	- ASK - If you need another license (like commercial, without copyright message, ...)
+
+Visit www.selbstzweck.net for more information about rGallery and other WBB/WCF Plugins.
+selbstzweck.net

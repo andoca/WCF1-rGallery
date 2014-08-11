@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/smt.dtd">
+<data>
+	<import>
+		<smt name="rgallery">
+			<classpath>lib/data/rgallery/RGallerySearch.class.php</classpath>
+		</smt>
+	</import>
+</data>

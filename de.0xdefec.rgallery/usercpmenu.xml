@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/userCPMenu.dtd">
+<data>
+	<import>
+		<usercpmenuitem name="de.0xdefec.rgallery.usercp.menu">
+			<link>index.php?page=RGalleryUser</link>
+			<showorder>3</showorder>
+			<permissions>user.rgallery.canUpload</permissions>
+		</usercpmenuitem>
+	</import>
+</data>

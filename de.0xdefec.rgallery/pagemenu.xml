@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "http://www.woltlab.com/DTD/import.dtd">
+<data>
+	<import>
+		<pagemenuitem name="de.0xdefec.rgallery.header.menu">
+			<position>header</position>
+			<icon>rGalleryM.png</icon>
+			<link>index.php?page=RGallery&amp;rGalleryCat=none&amp;reset_tag=1</link>
+			<permissions>user.rgallery.canView</permissions>
+		</pagemenuitem>
+	</import>
+</data>

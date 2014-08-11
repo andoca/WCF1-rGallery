@@ -1,0 +1,18 @@
+rGallery 1.x Lizenz
+http://www.selbstzweck.net
+
+Die rGallery ist frei Verfügbar. Sie soll freie Projekte fördern und - ganz einfach - Spaß machen.
+
+Die Lizenz basiert auf der Creative Commons by-nc-nd 3.0 at (http://creativecommons.org/licenses/by-nc-nd/3.0/at/). Alle Details sind diesen Bestimmungen zu entnehmen.
+
+Zur Vereinfachung seien ein paar Dinge aber auch hier beschrieben:</p>
+
+	- KEINE KOMMERZIELLE NUTZUNG: die rGallery darf nicht für kommerzielle Projekte/Zwecke verwendet werden.
+	- COPYRIGHTHINWEIS: Der Copyrighthinweis darf nicht entfernt oder verändert werden.
+	- UNTERSTÜTZEN: In der rGalery steckt viel Arbeit, die gratis zur Verfügung gestellt wird. Über ein Danke und Unterstützung in Form von Spenden oder Mitarbeit, freut man sich immer!
+	- KEINE HAFTUNG: die rGallery wird "as is" angeboten. Es wird keine Haftung für direkte oder indirekte Schäden, die aus der Nutzung der Software entstehen, übernommen (ausgenommen grober Fahrlässigkeit) - für Datensicherungen ist der Systemadministrator verantwortlich. Ebenso gibt es keinen Anspruch auf Support.
+	- ANDERE LIZENZIERUN: Kommerzielle Lizenzen oder Copyright-Free Varianten sind auf Anfrage verfügbar.
+
+Viele weiter Informationen, Kontaktmöglichkeit wegen weiteren Lizenzmöglichkeiten (kommerziell, Copyright-Free, usw.), Spendenformular und aktuelle Meldungen können auf der Entwicklerhomepage www.selbstzweck.net abgerufen werden.
+
+selbstzweck.net

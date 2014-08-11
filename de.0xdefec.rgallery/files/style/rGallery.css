@@ -1,0 +1,220 @@
+.rGallery-error {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background-color: #ffcc66;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.rGalleryContainer {
+	
+}
+
+ul.gallery-thumbs {
+	list-style: none;
+}
+
+.gallery-thumbs li {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.gallery-thumbs .thumb { /* class for a thumbnail div in the rgallery */
+	margin: 0 10px 0 10px;
+}
+
+.meta {
+	text-align: center;
+	margin: auto;
+	font-size: 90%;
+}
+
+.RGalleryImage .element {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding: 7px;
+	-moz-border-radius: 5px;
+	margin: 0;
+}
+
+.gallery-thumbs .thumb .element {
+	border: 1px solid #ccc;
+	padding: 7px;
+	-moz-border-radius: 5px;
+	text-align: center;
+}
+
+.gallery-thumbs .thumb .element:hover {
+	background-color: #eee;
+	border-color: #555;
+}
+
+.tag_cloud ol {
+	margin: 0px;
+	padding: 3px;
+}
+
+.rGalleryCopyright {
+	font-size: 90%;
+	text-align: right;
+}
+
+#waste {
+	width: 95%;
+	height: 170px;
+	overflow: auto;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.RGalleryImage p {
+	margin-top: 5px;
+}
+
+.RGalleryImage {
+	text-align: center;
+	margin: auto;
+}
+
+.RGalleryImage h3 {
+	text-align: center;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.rGalleryTagsActive {
+	margin: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 3px;
+	background-color: #ffee88;
+}
+
+.rGalleryActiveFilter {
+	background-color: #99dd11;
+}
+
+.RGalleryCommentPreview {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	text-align: left;
+	margin-top: 5px;
+}
+
+/* prototip.css : http://www.nickstakenburg.com/projects/prototip */
+.prototip {
+	position: absolute;
+}
+
+.prototip .effectWrapper {
+	position: relative;
+}
+
+.prototip .tooltip {
+	position: relative;
+}
+
+.prototip .toolbar {
+	position: relative;
+	display: block;
+}
+
+.prototip .toolbar .title {
+	display: block;
+	position: relative;
+}
+
+.prototip .prototipcontent {
+	clear: both;
+}
+
+.prototip .toolbar a.close {
+	position: relative;
+	text-decoration: none;
+	float: right;
+	width: 15px;
+	height: 15px;
+	display: block;
+	line-height: 0;
+	font-size: 0px;
+	border: 0;
+}
+
+.iframeShim {
+	position: absolute;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+/* Tooltip styles */
+.prototip .default {
+	color: #fff;
+}
+
+.prototip .default .toolbar {
+	background: #0F6788;
+}
+
+.prototip .default .title {
+	padding: 5px;
+}
+
+.prototip .default .prototipcontent {
+	background: #fff;
+	width: 400px;
+	height: 300px;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	text-align: center;
+}
+
+.prototip .default .prototipcontent img {
+	border: 1px solid #000;
+	margin: auto;
+}
+
+/* autocompleter start */
+div.autocomplete {
+	position: absolute;
+	width: 200px;
+	background-color: #ccc;
+	border: 1px solid #888;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.autocomplete ul {
+	list-style-type: none;
+	background-color: #ccc;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.autocomplete ul li.selected {
+	background-color: #d5dff2;
+}
+
+div.autocomplete ul li {
+	list-style-type: none;
+	font-size: 95%;
+	display: block;
+	margin: 0;
+	padding: 2px;
+	cursor: pointer;
+}
+/* autocompleter end */

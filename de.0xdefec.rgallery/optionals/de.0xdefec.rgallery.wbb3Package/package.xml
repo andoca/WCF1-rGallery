@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+
+<package name="de.0xdefec.rgallery.wbb3Package">
+	<packageInformation>
+		<packageName><![CDATA[rGallery wbb3 Package]]></packageName>
+		<packageDescription language="en"><![CDATA[Adds some functions for wbb3 Users]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Passt die rGallery zur Verwendung mit dem wbb3 an - wbb3 Benutzer (nicht wbb Lite 2!) unbedingt installieren!]]></packageDescription>
+		<packageurl><![CDATA[http://www.selbstzweck.net]]></packageurl>
+		<isUnique>1</isUnique>
+		<version>1.1 beta 1</version>
+		<date>2009-11-01</date>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[Andreas Diendorfer]]></author>
+		<authorURL><![CDATA[http://www.selbstzweck.net]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<!-- requiredpackage minversion="1.0.0">de.0xdefec.rgallery</requiredpackage -->
+		<requiredpackage minversion="3.0.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<useroptions>useroptions.xml</useroptions>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<foobar>foo</foobar>
+	</instructions>
+</package>

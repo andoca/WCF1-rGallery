@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="de.0xdefec.rgallery">
+		<item name="de.0xdefec.rgallery.copyright"><![CDATA[<!--
+			Dieser "Powered by" und Lizenzabsatz darf ohne ausdrueckliche Erlaubnis des Autors nicht entfernt, versteckt oder verdeckt werden. Er muss bei individuellen Styles in vergleichbarer Deutlichkeit wie beim Standardstyle sichtbar sein.
+			You're not allowed to remove or hide this "Powered by" and license info without permission from the author. It must be displayed in a similar way to the default style, when used in a individual style. Contact me, to get more information about this message and to remove it.
+			-->
+			<div class="rGalleryCopyright">
+			<img src="{@RELATIVE_WBB_DIR}icon/rGalleryS.png" /> powered by <a href="http://www.andoca.de/">rGallery</a> - released under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC license</a>.
+			</div>]]>
+		</item>
+		<item name="de.0xdefec.rgallery.yes"><![CDATA[Ja]]></item>
+		<item name="de.0xdefec.rgallery.no"><![CDATA[Nein]]></item>
+		<item name="de.0xdefec.rgallery.by"><![CDATA[von]]></item>
+		<item name="de.0xdefec.rgallery.add_element"><![CDATA[Bilder hinzuf&uuml;gen]]></item>
+		<item name="de.0xdefec.rgallery.all"><![CDATA[alle]]></item>
+		<item name="de.0xdefec.rgallery.available_tags"><![CDATA[Verf&uuml;gbare Tags]]></item>
+		<item name="de.0xdefec.rgallery.available_tags_desc"><![CDATA[Klicke auf einen passenden Tag um ihn hinzuzuf&uuml;gen!]]></item>
+		<item name="de.0xdefec.rgallery.clicks"><![CDATA[Klicks]]></item>
+		<item name="de.0xdefec.rgallery.comment_add.commentar"><![CDATA[Kommentar]]></item>
+		<item name="de.0xdefec.rgallery.comment_add.send"><![CDATA[Kommentar speichern]]></item>
+		<item name="de.0xdefec.rgallery.comment_add.title"><![CDATA[Kommentar schreiben]]></item>
+		<item name="de.0xdefec.rgallery.comment_s"><![CDATA[Kommentar{if $value[commentsCount] != 1}e{/if}]]></item>
+		<item name="de.0xdefec.rgallery.comments"><![CDATA[Kommentare]]></item>
+		<item name="de.0xdefec.rgallery.categories"><![CDATA[Kategorien]]></item>
+		<item name="de.0xdefec.rgallery.delete_error"><![CDATA[Fehler beim L&ouml;schen!]]></item>
+		<item name="de.0xdefec.rgallery.delete_elements"><![CDATA[Bilder l&ouml;schen]]></item>
+		<item name="de.0xdefec.rgallery.element_s"><![CDATA[Bild{if $RGalleryCats_items[$value] != 1}er{/if}]]></item>
+		<item name="de.0xdefec.rgallery.elements"><![CDATA[Bilder]]></item>
+		<item name="de.0xdefec.rgallery.userstats"><![CDATA[Deine Statistik]]></item>
+		<item name="de.0xdefec.rgallery.error_toosmall"><![CDATA[Das Bild ist zu klein!]]></item>
+		<item name="de.0xdefec.rgallery.error_toolarge"><![CDATA[Der Server kann das Bild nicht verarbeiten, da es zu gro&szlig; ist (memory_limit too low)! Verkleinere die Dimensionen und versuchen es bitte erneut.]]></item>
+		<item name="de.0xdefec.rgallery.error_nospaceleft"><![CDATA[Du hast keine Uploads mehr zur Verf&uuml;gung!]]></item>
+		<item name="de.0xdefec.rgallery.error_wrongfiletype"><![CDATA[Der Dateityp ist nicht erlaubt!]]></item>
+		<item name="de.0xdefec.rgallery.error_catnotallowed"><![CDATA[Du darfst keine Bilder in diese Kategorie laden!]]></item>
+		<item name="de.0xdefec.rgallery.error_inputnotallowed"><![CDATA[Fehlerhafte Eingaben!]]></item>
+		<item name="de.0xdefec.rgallery.error_thumbnails"><![CDATA[Fehler beim Erstellen der Zwischengr&ouml;&szlig;en!]]></item>
+		<item name="de.0xdefec.rgallery.error_nofile"><![CDATA[Keine Datei ausgew&auml;hlt!]]></item>
+		<item name="de.0xdefec.rgallery.filter"><![CDATA[Filter]]></item>
+		<item name="de.0xdefec.rgallery.image.title"><![CDATA[Detailansicht]]></item>
+		<item name="de.0xdefec.rgallery.image_at"><![CDATA[am]]></item>
+		<item name="de.0xdefec.rgallery.image_edit"><![CDATA[Bild bearbeiten]]></item>
+		<item name="de.0xdefec.rgallery.image_from"><![CDATA[von]]></item>
+		<item name="de.0xdefec.rgallery.image_lastchanged"><![CDATA[zuletzt <b>aktualisiert</b>]]></item>
+		<item name="de.0xdefec.rgallery.item.addeddate"><![CDATA[Hinzugef&uuml;gt am: ]]></item>
+		<item name="de.0xdefec.rgallery.item.name"><![CDATA[Titel]]></item>
+		<item name="de.0xdefec.rgallery.item.size"><![CDATA[Dateigr&ouml;&szlig;e:]]></item>
+		<item name="de.0xdefec.rgallery.last_comments"><![CDATA[Letzte Kommentare]]></item>
+		<item name="de.0xdefec.rgallery.maintitle"><![CDATA[Galerie]]></item>
+		<item name="de.0xdefec.rgallery.nextupload"><![CDATA[N&auml;chster Upload]]></item>
+		<item name="de.0xdefec.rgallery.no_comments"><![CDATA[Keine Kommentare]]></item>
+		<item name="de.0xdefec.rgallery.no_images_yet"><![CDATA[Keine Bilder vorhanden!]]></item>
+		<item name="de.0xdefec.rgallery.quota_usage"><![CDATA[Speicherplatz]]></item>
+		<item name="de.0xdefec.rgallery.register_to_addComment"><![CDATA[<a href="{@RELATIVE_WBB_DIR}index.php?form=UserLogin">Melde dich an</a>, um Kommentare hinzuf&uuml;gen zu k&ouml;nnen!]]></item>
+		<item name="de.0xdefec.rgallery.space_left"><![CDATA[Noch <strong>{$user_status['left_quota']|filesize}</strong> verf&uuml;gbar]]></item>
+		<item name="de.0xdefec.rgallery.space_unlimited"><![CDATA[<strong>Unbeschr&auml;nkt</strong> Speicherplatz]]></item>
+		<item name="de.0xdefec.rgallery.stats"><![CDATA[Statistik]]></item>
+		<item name="de.0xdefec.rgallery.stats.common"><![CDATA[Allgemeines]]></item>
+		<item name="de.0xdefec.rgallery.stats.totalimages"><![CDATA[Bilder in der Galerie]]></item>
+		<item name="de.0xdefec.rgallery.stats.totalmb"><![CDATA[Gr&ouml;&szlig;e der Galerie]]></item>
+		<item name="de.0xdefec.rgallery.stats.totalcomments"><![CDATA[Summe an Kommentaren]]></item>
+		<item name="de.0xdefec.rgallery.stats.totalclicks"><![CDATA[Summe an Klicks]]></item>
+		<item name="de.0xdefec.rgallery.stats.top5users"><![CDATA[Benutzer mit den meisten Bildern]]></item>
+		<item name="de.0xdefec.rgallery.stats.top5imagesClicks"><![CDATA[Bilder mit den meisten Klicks]]></item>
+		<item name="de.0xdefec.rgallery.stats.top5usersClicks"><![CDATA[Benutzer mit den beliebtesten Bildern (Durchschnittliche Klicks pro Bild)]]></item>
+		<item name="de.0xdefec.rgallery.tag"><![CDATA[Tag]]></item>
+		<item name="de.0xdefec.rgallery.tags"><![CDATA[Tags]]></item>
+		<item name="de.0xdefec.rgallery.tag_active"><![CDATA[Folgende Bilder haben den Tag '<strong>{$active_tag}</strong>' <br /><a href="{@RELATIVE_WBB_DIR}index.php?page=RGallery&amp;reset_tag=1{@SID_ARG_2ND}" style="text-decoration: underline">alle Bilder anzeigen</a>.]]></item>
+		<item name="de.0xdefec.rgallery.upload.categorie"><![CDATA[Kategorie]]></item>
+		<item name="de.0xdefec.rgallery.upload.comment"><![CDATA[Kommentar]]></item>
+		<item name="de.0xdefec.rgallery.upload.file"><![CDATA[Datei]]></item>
+		<item name="de.0xdefec.rgallery.upload.loading"><![CDATA[Daten werden gesendet...]]></item>
+		<item name="de.0xdefec.rgallery.upload.save"><![CDATA[Speichern]]></item>
+		<item name="de.0xdefec.rgallery.upload.tags"><![CDATA[Tags (Stichworte)]]></item>
+		<item name="de.0xdefec.rgallery.upload.tags_desc"><![CDATA[(Mehrere Tags mit <strong>Komma</strong> trennen. Bsp.: <i>Tag1, Tag2, Tag3</i>)]]></item>
+		<item name="de.0xdefec.rgallery.upload.title"><![CDATA[Titel]]></item>
+		<item name="de.0xdefec.rgallery.upload_error"><![CDATA[Fehler beim Speichern!]]></item>
+		<item name="de.0xdefec.rgallery.uploads_left"><![CDATA[Noch <strong>{$user_status['left_uploads_per_week']}</strong> Upload{if $user_status['left_uploads_per_week'] != 1}s{/if} diese Woche]]></item>
+		<item name="de.0xdefec.rgallery.uploads_unlimited"><![CDATA[<strong>Unbeschr&auml;nkt</strong> Uploads pro Woche]]></item>
+		<item name="de.0xdefec.rgallery.usercp_images_from"><![CDATA[Bilder von &raquo;{$user->username}&laquo;]]></item>
+		<item name="de.0xdefec.rgallery.users"><![CDATA[Benutzeralben]]></item>
+		<item name="de.0xdefec.rgallery.usertitle"><![CDATA[Deine Bilder]]></item>
+		<item name="de.0xdefec.rgallery.view_fullsize"><![CDATA[Bild speichern - {$data.itemOrigDimW}x{$data.itemOrigDimH}px]]></item>
+		<item name="de.0xdefec.rgallery.waste_desc"><![CDATA[Bilder hier ablegen um sie zu l&ouml;schen]]></item>
+		<item name="de.0xdefec.rgallery.usercp_all"><![CDATA[ &raquo; Alle Bilder]]></item>
+		<item name="de.0xdefec.rgallery.item_deleted"><![CDATA[Das Bild wurde gel&ouml;scht.]]></item>
+		<item name="de.0xdefec.rgallery.back"><![CDATA[Zur&uuml;ck]]></item>
+		<item name="de.0xdefec.rgallery.image_delete"><![CDATA[Bild l&ouml;schen]]></item>
+		<item name="de.0xdefec.rgallery.ask_deleteComment"><![CDATA[Soll der Kommentar wirklich gelöscht werden?]]></item>
+		<item name="de.0xdefec.rgallery.ask_deleteItem"><![CDATA[Soll das Bild wirklich gelöscht werden?]]></item>
+		<item name="de.0xdefec.rgallery.comments_closed"><![CDATA[Dieses Bild kann nicht kommentiert werden.]]></item>
+		<item name="de.0xdefec.rgallery.pn_subject"><![CDATA[Neuer Kommentar zu deinem Bild "[itemName]"]]></item>
+		<item name="de.0xdefec.rgallery.clicktoadd"><![CDATA[<br />Neue Bilder hinzuf&uuml;gen]]></item>
+		<item name="de.0xdefec.rgallery.pn_message"><![CDATA[Hallo!
+Ich habe soeben einen Kommentar zu deinem Bild "[itemName]" verfasst!
+
+[gallery][itemID][/gallery]
+
+xx Diese Nachricht wurde automatisch vom System erstellt xx]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery"><![CDATA[rGallery Einstellungen]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.description"><![CDATA[Einstellungen f&uuml;r die rGallery]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.path"><![CDATA[Servereinstellungen]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.path.description"><![CDATA[Einstellungen zum Webserver. Bitte bei unklarheiten beim Webhoster nachfragen!]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_PATH"><![CDATA[Pfad zum rGallery Verzeichnis:]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_PATH.description"><![CDATA[NUR &Auml;NDERN WENN SIE SICH ABSOLUT SICHER SIND WAS SIE TUN!!! Bitte geben Sie hier den Pfad (z.b. /home/andi/htdocs/rG_data) zu dem Verzeichnis an, in dem rGallery die Bilder speichern soll. <b>Achtung!</b> Der Pfad kann an einer beliebigen Stelle des Webservers liegen, auch au&szlig;erhalb des document-root. Deswegen ist es besser den vollst&auml;ndigen (absoluten) Pfad einzugeben.]]></item>
+		<item name="wcf.acp.option.RGALLERY_HTTP_PATH"><![CDATA[Pfad zum Forum:]]></item>
+		<item name="wcf.acp.option.RGALLERY_HTTP_PATH.description"><![CDATA[Bitte geben Sie hier die Adresse an &uuml;ber die das Forum per http zu erreichen ist (ohne index.php). z.B. http://www.domain.de/forum]]></item>
+		<item name="wcf.acp.option.RGALLERY_USE_CONVERT"><![CDATA[ImageMagick:]]></item>
+		<item name="wcf.acp.option.RGALLERY_USE_CONVERT.description"><![CDATA[Soll ImageMagicks convert Befehl (via system()) verwendet werden? Per Default wird GD von PHP verwendet, welches auf den meisten Servern verf&uuml;gbar ist. Aktiviere ImageMagick nur, wenn du dir sicher bist, dass es auch installiert ist!]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.thumbs"><![CDATA[Thumbnails]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.thumbs.description"><![CDATA[Einstellungen f&uuml;r die Thumbnails (Vorschaubilder)]]></item>
+		<item name="wcf.acp.option.RGALLERY_THUMB_SIZE"><![CDATA[Thumbnailsgr&ouml;&szlig;e in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_THUMB_SIZE.description"><![CDATA[Seitenl&auml;nge der quadratischen Thumbnails in Pixel]]></item>
+		<item name="wcf.acp.option.RGALLERY_THUMB_COMPRESSION"><![CDATA[JPG-Kompressionsrate:]]></item>
+		<item name="wcf.acp.option.RGALLERY_THUMB_COMPRESSION.description"><![CDATA[Kompressionsrate der Thumbnails (kleiner = schlechtere Qualit&auml;t)]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.tthumbs"><![CDATA[tiny-Thumbnails]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.tthumbs.description"><![CDATA[Einstellungen f&uuml;r die "tiny-Thumbnails" (Vorschaubilder f&uuml;r den Mistk&uuml;bel usw.)]]></item>
+		<item name="wcf.acp.option.RGALLERY_TTHUMB_SIZE"><![CDATA[tiny-Thumbnailsgr&ouml;&szlig;e in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_TTHUMB_SIZE.description"><![CDATA[Seitenl&auml;nge der quadratischen tiny-Thumbnails in Pixel]]></item>
+		<item name="wcf.acp.option.RGALLERY_TTHUMB_COMPRESSION"><![CDATA[JPG-Kompressionsrate:]]></item>
+		<item name="wcf.acp.option.RGALLERY_TTHUMB_COMPRESSION.description"><![CDATA[Kompressionsrate der tiny-Thumbnails]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.preview"><![CDATA[Tooltip-Preview-Images]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.preview.description"><![CDATA[Einstellungen f&uuml;r die Zwischengr&ouml;&szlig;en f&uuml;r die Tooltip-Vorschau. Unabh&auml;ngig davon ob die Tooltip-Preview aktiviert ist oder nicht!]]></item>
+		<item name="wcf.acp.option.RGALLERY_PREVIEW_SIZE_W"><![CDATA[Maximalbreite in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_PREVIEW_SIZE_W.description"><![CDATA[Maximalbreite der Tooltip-Preview-Images in Pixel]]></item>
+		<item name="wcf.acp.option.RGALLERY_PREVIEW_SIZE_H"><![CDATA[Maximalh&ouml;he in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_PREVIEW_SIZE_H.description"><![CDATA[Maximalh&ouml;he der Tooltip-Preview-Images in Pixel]]></item>
+		<item name="wcf.acp.option.RGALLERY_PREVIEW_COMPRESSION"><![CDATA[JPG-Kompressionsrate:]]></item>
+		<item name="wcf.acp.option.RGALLERY_PREVIEW_COMPRESSION.description"><![CDATA[Kompressionsrate der Tooltip-Preview-Images]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.image"><![CDATA[Bilder]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.image.description"><![CDATA[Einstellungen f&uuml;r die Maximalgr&ouml;&szlig;en der raufgeladenen Bilder. Gr&ouml;&szlig;ere Bilder werden automatisch verkleinert. Bilder die kleiner sind als die Minimalgr&ouml;&szlig;en werden nicht akzeptiert!]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_SIZE_W"><![CDATA[Breite in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_SIZE_W.description"><![CDATA[Breite der Bilder in Pixel auf die verkleinert werden soll]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_SIZE_H"><![CDATA[H&ouml;he in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_SIZE_H.description"><![CDATA[H&ouml;he der Bilder in Pixel auf die verkleinert werden soll]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_COMPRESSION"><![CDATA[JPG-Kompressionsrate:]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGE_COMPRESSION.description"><![CDATA[Kompressionsrate der Bilder]]></item>
+		<item name="wcf.acp.option.RGALLERY_WATERMARK"><![CDATA[Wasserzeichen:]]></item>
+		<item name="wcf.acp.option.RGALLERY_WATERMARK.description"><![CDATA[Soll ein Wasserzeichen in die Bilder eingef&uuml;gt werden? <strong>ACHTUNG!</strong> Als Wasserzeichen kann ein <strong>PNG Grafik</strong> verwendet werden. KEINE JPG oder GIF Grafiken! Die Datei muss mit dem Namen 'watermark.png' in dem weiter oben definierten rGallery Verzeichnis liegen und vom Webserver lesbar sein!]]></item>
+		<item name="wcf.acp.option.RGALLERY_MIN_SIZE_W"><![CDATA[Minimalbreite in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_MIN_SIZE_W.description"><![CDATA[Minimalbreite der Bilder in Pixel. Bilder mit einer geringeren H&ouml;he werden nicht akzeptiert.]]></item>
+		<item name="wcf.acp.option.RGALLERY_MIN_SIZE_H"><![CDATA[Minimalh&ouml;he in px:]]></item>
+		<item name="wcf.acp.option.RGALLERY_MIN_SIZE_H.description"><![CDATA[Minimalh&ouml;he der Bilder in Pixel. Bilder mit einer geringeren Breite werden nicht akzeptiert.]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.allowed_extensions"><![CDATA[Upload]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.allowed_extensions.description"><![CDATA[Erlaubte Dateiendungen beim Upload]]></item>
+		<item name="wcf.acp.option.RGALLERY_ALLOWED_EXTENSIONS"><![CDATA[Erlaubte Dateiendungen:]]></item>
+		<item name="wcf.acp.option.RGALLERY_ALLOWED_EXTENSIONS.description"><![CDATA[Mehrere Dateiendungen durch ein Komma und ein Leerzeichen trennen]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.display"><![CDATA[Anzeige]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.display.description"><![CDATA[Anzeigeeinstellungen]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGES_PER_USER_PAGE"><![CDATA[Bilder pro Seite (UserCP):]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGES_PER_USER_PAGE.description"><![CDATA[Bilder pro Seite im UserCP (Uploadbereich)]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGES_PER_PAGE"><![CDATA[Bilder pro Seite (Galerie):]]></item>
+		<item name="wcf.acp.option.RGALLERY_IMAGES_PER_PAGE.description"><![CDATA[Bilder pro Seite in der Galerie]]></item>
+		<item name="wcf.acp.option.RGALLERY_UPLOADS_AT_ONCE"><![CDATA[Maximalanzahl an Uploads:]]></item>
+		<item name="wcf.acp.option.RGALLERY_UPLOADS_AT_ONCE.description"><![CDATA[Wie viele Bilder darf ein Benutzer maximal auf einmal uploaden?]]></item>
+		<item name="wcf.acp.option.RGALLERY_COLOR_TAGS"><![CDATA[Tags farbig darstellen:]]></item>
+		<item name="wcf.acp.option.RGALLERY_COLOR_TAGS.description"><![CDATA[Sollen h&auml;ufige Tags d&uuml;nkler dargestellt werden und seltenere heller?]]></item>
+		<item name="wcf.acp.option.RGALLERY_SHOW_TOOLTIPS"><![CDATA[Tooltipvorschau anzeigen:]]></item>
+		<item name="wcf.acp.option.RGALLERY_SHOW_TOOLTIPS.description"><![CDATA[Bitte hier ausw&auml;hlen, ob eine Tooltipvorschau angezeigt werden soll.]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.advanced"><![CDATA[Erweitert]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.rgallery.config.advanced.description"><![CDATA[Erweiterte Einstellungen. NUR &auml;ndern, wenn du genau wei&szlig;t, was du tust!]]></item>
+		<item name="wcf.acp.option.RGALLERY_SAFE_MODE_CHECK"><![CDATA[Safe Mode Check:]]></item>
+		<item name="wcf.acp.option.RGALLERY_SAFE_MODE_CHECK.description"><![CDATA[rGallery funktioniert zwar bei aktiviertem PHP Safe Mode, bei den meisten Providern f&uuml;hrt er aber zu Problemen. Wird diese Option deaktiviert und ist Safe Mode aktiviert, kann es zu Problemen beim Upload kommen, sollte der Server falsch konfiguriert sein.]]></item>
+	</category>
+	<category name="wbb.header">
+		<item name="de.0xdefec.rgallery.header.menu"><![CDATA[Galerie]]></item>
+	</category>
+	<category name="wcf.user.usercp">
+		<item name="de.0xdefec.rgallery.usercp.menu"><![CDATA[Galerie]]></item>
+	</category>
+	<category name="wcf.acp">
+		<item name="wcf.acp.rgallery"><![CDATA[rGallery]]></item>
+		<item name="wcf.acp.rgallery_cats"><![CDATA[rGallery Kategorien]]></item>
+		<item name="wcf.acp.rgallery.maintitle"><![CDATA[rGallery Kategorien]]></item>
+		<item name="wcf.acp.rgallery.newCat"><![CDATA[Neue Kategorie hinzuf&uuml;gen]]></item>
+		<item name="wcf.acp.rgallery.catName"><![CDATA[Name]]></item>
+		<item name="wcf.acp.rgallery.catComment"><![CDATA[Beschreibung]]></item>
+		<item name="wcf.acp.rgallery.catAuthorized_groups"><![CDATA[Upload beschr&auml;nkt auf:]]></item>
+		<item name="wcf.acp.rgallery.catAccessible_groups"><![CDATA[Lesen beschr&auml;nkt auf:]]></item>
+		<item name="wcf.acp.rgallery.catWriteable"><![CDATA[Schreibbar]]></item>
+		<item name="wcf.acp.rgallery.catDelete"><![CDATA[Kategorie l&ouml;schen]]></item>
+		<item name="wcf.acp.rgallery.catNotDeletable"><![CDATA[Diese Kategorie kann nicht gel&ouml;scht werden.]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.rgallery"><![CDATA[rGallery]]></item>
+		<item name="wcf.acp.group.option.category.user.rgallery.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.canView"><![CDATA[Zugriff]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.canView.description"><![CDATA[Der Benutzer kann die rGallery &ouml;ffnen und Bilder betrachten.]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.canUpload"><![CDATA[Upload]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.canUpload.description"><![CDATA[Der Benutzer kann Bilder in die rGallery hinzuf&uuml;gen.]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.keepOriginal"><![CDATA[Originalbilder behalten]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.keepOriginal.description"><![CDATA[Die Bilder werden in ihrer Originalgr&ouml;&szlig;er auf dem Server gespeichert.]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.quota_disabled"><![CDATA[Unlimitierter Speicherplatz]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.quota_disabled.description"><![CDATA[Sollen diese Benutzergruppe unlimitiert Speicherplatz verwenden k&ouml;nnne?]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.uploadsPerWeek_disabled"><![CDATA[Keine Beschr&auml;nkung]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.uploadsPerWeek_disabled.description"><![CDATA[Sollen die Beschr&auml;nkungen bei dieser Benutzergruppe au&szlig;er Kraft gesetzt werden, so dass unlimitiert Bilder pro Woche hinaufgeladen werden k&ouml;nnen?]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.quota"><![CDATA[Speicherplatz]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.quota.description"><![CDATA[Speicherplatz f&uuml;r die Bilder des Users in MB (ohne Originalbilder und Zwischengr&ouml;&szlig;en)]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.uploadsPerWeek"><![CDATA[Beschr&auml;nkung]]></item>
+		<item name="wcf.acp.group.option.user.rgallery.uploadsPerWeek.description"><![CDATA[Anzahl der Bilder, die der User innerhalb von 7 Tagen hinzuf&uuml;gen darf]]></item>
+		<item name="wcf.acp.group.option.category.mod.rgallery"><![CDATA[rGallery]]></item>
+		<item name="wcf.acp.group.option.category.mod.rgallery.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.mod.rgallery.canModerate"><![CDATA[Moderationsrechte]]></item>
+		<item name="wcf.acp.group.option.mod.rgallery.canModerate.description"><![CDATA[Der Benutzer hat Moderationsrechte (&auml;ndern, l&ouml;schen, usw.) in der Galerie.]]></item>
+	</category>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.settings.rgallery"><![CDATA[Galerie]]></item>
+		<item name="wcf.user.option.rgallery_notifyPN"><![CDATA[Benachrichtigungen senden]]></item>
+		<item name="wcf.user.option.rgallery_notifyPN.description"><![CDATA[Willst du &uuml;ber neue Kommentare zu deinen Bildern per PN benachrichtig werden?]]></item>
+		<item name="wcf.user.option.rgallery_allowComments"><![CDATA[Kommentare erlauben]]></item>
+		<item name="wcf.user.option.rgallery_allowComments.description"><![CDATA[D&uuml;rfen andere Benutzer deine Bilder kommentieren?]]></item>
+		<item name="wcf.user.option.rgallery_allowRating"><![CDATA[Bewertung erlauben]]></item>
+		<item name="wcf.user.option.rgallery_allowRating.description"><![CDATA[D&uuml;rfen andere Benutzer deine Bilder bewerten?]]></item>
+	</category>
+	<category name="wbb.usersOnline">
+		<item name="wbb.usersOnline.location.rgallery"><![CDATA[Galerie]]></item>
+	</category>
+	<category name="wcf.search">
+		<item name="wcf.search.type.rgallery"><![CDATA[Galerie]]></item>
+	</category>
+</language>

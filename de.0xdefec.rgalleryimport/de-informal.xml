@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp">
+		<item name="wcf.acp.rgalleryimport"><![CDATA[rGallery Import]]></item>
+		<item name="wcf.acp.rgalleryimport.maintitle"><![CDATA[rGallery Import]]></item>
+		<item name="wcf.acp.rgalleryimport.local"><![CDATA[Import aus einem Verzeichnis]]></item>
+		<item name="wcf.acp.rgalleryimport.local.desc"><![CDATA[Hier k&ouml;nnen ganze Verzeichnisse importiert werden. Das Verzeichnis muss sich auf dem Webserver befinden und lesbar sein. Als Titel wird der Dateiname verwendet und alle Bilder in dem Verzeichnis werden nach dem Absenden des Forumlars automatisch in die rGallery importiert.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.path"><![CDATA[Importverzeichnis]]></item>
+		<item name="wcf.acp.rgalleryimport.local.path.desc"><![CDATA[Verzeichnis aus dem die Bilder importiert werden sollen. Die Bilder k&ouml;nnen zuvor mittels FTP hinaufgeladen werden. Das Verzeichnis wird <strong>nicht</strong> rekursiv durchsucht!]]></item>
+		<item name="wcf.acp.rgalleryimport.local.userID"><![CDATA[Besitzer userID]]></item>
+		<item name="wcf.acp.rgalleryimport.local.userID.desc"><![CDATA[UserID des Users, dem die importierten Bilder zugeordnet werden sollen.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.tags"><![CDATA[Tags]]></item>
+		<item name="wcf.acp.rgalleryimport.local.tags.desc"><![CDATA[Tags die allen importierten Bildern zugewiesen werden sollen.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.store_orig"><![CDATA[Originalbilder speichern]]></item>
+		<item name="wcf.acp.rgalleryimport.local.store_orig.desc"><![CDATA[Sollen auch die Originalbilder kopiert werden?]]></item>
+		<item name="wcf.acp.rgalleryimport.local.cat"><![CDATA[Kategorie]]></item>
+		<item name="wcf.acp.rgalleryimport.local.cat.desc"><![CDATA[Kategorie der importierten Bilder]]></item>
+
+		<item name="wcf.acp.rgallery.import.progress.finish"><![CDATA[Import abgeschlossen.]]></item>
+		<item name="wcf.acp.rgallery.import.progress.working"><![CDATA[<strong>Bilder werden importiert...</strong>]]></item>
+		<item name="wcf.acp.rgallery.import.success"><![CDATA[Import erfolgreich abgeschlossen!]]></item>
+		<item name="wcf.acp.rgallery.import.message"><![CDATA[Fehler beim Import.]]></item>
+		<item name="wcf.acp.rgallery.import.pageHeadline"><![CDATA[rGallery Import.]]></item>
+		
+		
+		<item name="wcf.acp.rgalleryimport.jgs"><![CDATA[JGS 4.0.0 Import]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.desc"><![CDATA[WICHTIG! Aufgrund von strukturellen Unterschieden, k&ouml;nnen nicht alle Daten aus der JGS Galerie importiert werden. So kann z.B. die Struktur der Kategorien (Unterkategorien usw.) nicht ber&uuml;cksichtigt werden. &Uuml;bernommen werden folgende Dinge:<ul>
+			<li>Bilder (inkl. Besitzer, Klicks, Titel, Beschreibung, Uploaddatum)</li>
+			<li>Kategorien (werden linearisiert - nur noch eine Ebene vorhanden nach dem Import. Rechte werden nicht ber&uuml;cksichtigt)</li>
+			<li>Kommentare</li>
+		</ul>]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.server"><![CDATA[MySQL Server]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.server.desc"><![CDATA[Bitte den MySQL Server angeben auf dem die JGS Tabellen liegen. Meistens localhost]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.username"><![CDATA[MySQL Username]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.username.desc"><![CDATA[Loginname des MySQL Servers]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.password"><![CDATA[MySQL Passwort]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.password.desc"><![CDATA[Passwort f&uuml;r den MySQL Server]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.db"><![CDATA[MySQL Datenbank]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.db.desc"><![CDATA[Datenbank der wbb2/jgs Installation]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.pre"><![CDATA[WBB Pr&auml;fix]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.mysql.pre.desc"><![CDATA[Pr&auml;fix der WBB2 Tabellen]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.wbbpath"><![CDATA[WBB2 Pfad (absolut)]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.wbbpath.desc"><![CDATA[Absoluter Pfad (/home/htdocs/wbb2) zur WBB2 Installation. Darin sollte sich der Ordner "galerie" befinden, in dem die JGS Galerie die Bilder speichert.]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.tagsFromDesc"><![CDATA[Tags erstellen]]></item>
+		<item name="wcf.acp.rgalleryimport.jgs.tagsFromDesc.desc"><![CDATA[Soll die Bildbeschreibung zum Taggen der Bilder herangezogen werden? Dabei wird aus jedem Wort der Beschreibung ein Tag.]]></item>
+
+		<item name="wcf.acp.rgalleryimport.wcf"><![CDATA[Woltlab User Galerie Export]]></item>
+		<item name="wcf.acp.rgalleryimport.wcf.desc"><![CDATA[<strong>Exportiert</strong> die Bilder der rGallery in die User Galerie von Woltlab.
+		<br /><br />
+		<strong>Bitte folgende Punkte beachten!</strong>
+		<ol>
+			<li>Es gelten die selben Bedingungen wie beim Import von Daten</li>
+			<li>Zum Export muss die Woltlab User Galerie und die rGallery installiert sein (logisch!)</li>
+			<li><strong>Galerie-Einstellungen anpassen:</strong> Beim Export werden alle Fotos des Benutzers über die Schnittstelle der User Galerie importiert. Damit diese große Zahl importiert werden kann, müssen die Gruppenrechte angepasst werden. Ich empfehle die Limits bei einer allumfassenden Gruppe (z.b. Jeder) auf unrealisitisch hohe Werte einzustellen, so dass alle Bilder eines Benutzers nicht mehr brauchen als hier eingestellt. Diese Einstellungen können nach dem Export wieder auf normale Werte geändert werden.</li>
+			<li>Es werden die Bilder, Kommentare, Aufrufe und Tags exportiert. Ein Export der Kategorie und Bewertungen sind nicht möglich, da diese von der User Galerie nicht unterstützt werden.</li>
+			<li>EXIF Informationen (Kameramodell, Position, usw.) sind nur vorhanden, wenn die rGallery die Originaldateien gespeichert hat (Gruppenoption bei der rGallery) - ansonsten wird die größte verfügbare Datei exportiert.</li>
+			<li>Ich empfehle für die dauer des Exports allen Gruppe die Rechte in der rGallery zu nehmen, so dass bei dem durchaus mehrere Stunden dauernden Export keine Fotos hinzugefügt oder gelöscht werden können.</li>
+			<li>Nach dem Export kann die rGallery deinstalliert werden. Nicht vergessen den rG_data Ordner via FTP zu löschen, sonst bleiben die Bilder der rGallery noch auf dem Server und brauchen unnötigen Webspace.</li>
+			<li><strong style="color: #f00">!! BACKUPS MACHEN !!</strong> Die Woltlab Galerie löscht bei einem Fehler die Fotos aus der rGallery - das lässt sich leider nicht ändern. Deswegen ist es unerlässlich die Bilderdateien der rGallery zu sichern! Dazu den Ordner "rG_data" (oder wie in den rGallery-Einstellungen angegeben) am einfachsten kopieren. Zusätzlich via phpMyAdmin o.ä. eine Sicherung der rGallery Tabellen durchführen.</li>
+		</ol>
+		
+		]]></item>
+
+	</category>
+</language>

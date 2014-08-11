@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+
+<package name="de.0xdefec.rgalleryimport">
+	<packageInformation>
+		<packageName><![CDATA[rGallery import/export package]]></packageName>
+		<packageDescription language="en"><![CDATA[Import/Export Package for the rGallery]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Import/Export Package für die rGallery]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<isUnique>1</isUnique>
+		<version>1.1.8</version>
+		<date>2011-03-06</date>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[Andoca Haustier-WG UG (haftungsbeschränkt)]]></author>
+		<authorURL><![CDATA[http://www.andoca.de]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.0.9.1">de.0xdefec.rgallery</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+	</instructions>
+</package>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.rgalleryrandomleft.title"><![CDATA[rGallery random (left)]]></item>
+		<item name="wbb.portal.box.rgalleryrandomcenter.title"><![CDATA[rGallery random (center)]]></item>
+		<item name="wbb.portal.box.rgalleryrandomright.title"><![CDATA[rGallery random (right)]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.rgalleryrandom"><![CDATA[rGallery Random]]></item>
+		<item name="wcf.acp.option.category.portal.rgalleryrandom.description"/>
+	</category>
+	<category name="de.0xdefec.rgallery.portalrandombox">
+		<item name="de.0xdefec.rgallery.portalrandombox.title"><![CDATA[Zufällig aus der Galerie]]></item>
+	</category>
+</language>

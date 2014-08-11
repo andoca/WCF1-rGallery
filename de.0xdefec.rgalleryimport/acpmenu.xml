@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>	
+	<import>
+		<acpmenuitem name="wcf.acp.rgalleryimport">
+			<parent>wcf.acp.rgallery</parent>
+			<link>index.php?form=RGalleryImport</link>
+			<showorder>1</showorder>
+			<permissions>admin.system.canEditOption</permissions>
+		</acpmenuitem>
+	</import>
+</data>

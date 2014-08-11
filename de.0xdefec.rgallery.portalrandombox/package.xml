@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+
+<package name="de.0xdefec.rgallery.portalrandombox">
+	<packageInformation>
+		<packageName><![CDATA[Random Portalbox rGallery]]></packageName>
+		<packageDescription language="en"><![CDATA[Box for the Portal to add an random rGallery image.]]></packageDescription>
+		<packageDescription language="de"><![CDATA[Portalbox für die rGallery (zufällige Bilder).]]></packageDescription>
+		<packageurl><![CDATA[http://www.selbstzweck.net]]></packageurl>
+		<version>0.0.1</version>
+		<date>2009-02-08</date>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+	
+	<authorInformation>
+		<author><![CDATA[Andreas Diendorfer]]></author>
+		<authorURL><![CDATA[http://www.andreas-diendorfer.at]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.0.0">de.wbb3mods.wbb.portal</requiredpackage>
+		<requiredpackage minversion="1.0.2">de.0xdefec.rgallery</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<portalbox>portalbox.xml</portalbox>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<useroptions>useroptions.xml</useroptions>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+	</instructions>
+</package>

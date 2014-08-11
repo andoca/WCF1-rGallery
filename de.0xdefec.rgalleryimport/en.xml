@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="en">
+	<category name="wcf.acp">
+		<item name="wcf.acp.rgalleryimport"><![CDATA[rGallery import]]></item>
+		<item name="wcf.acp.rgalleryimport.maintitle"><![CDATA[rGallery import]]></item>
+		<item name="wcf.acp.rgalleryimport.local"><![CDATA[Import from a directory]]></item>
+		<item name="wcf.acp.rgalleryimport.local.desc"><![CDATA[Import images from a directory on your webserver here. Upload the images via ftp first. All images from the given directory will be imported into rgallery. The filename will be used as image title.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.path"><![CDATA[Importdirectory]]></item>
+		<item name="wcf.acp.rgalleryimport.local.path.desc"><![CDATA[Directory of the uploaded images which should be imported. All images in this directory will be imported (subdirectories are ignored]]></item>
+		<item name="wcf.acp.rgalleryimport.local.userID"><![CDATA[Owner userID]]></item>
+		<item name="wcf.acp.rgalleryimport.local.userID.desc"><![CDATA[UserID of the user which will be the owner of the imported images.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.store_orig"><![CDATA[Keep original files]]></item>
+		<item name="wcf.acp.rgalleryimport.local.store_orig.desc"><![CDATA[Do you want to store the original files in the rGallery?]]></item>
+		<item name="wcf.acp.rgalleryimport.local.cat"><![CDATA[Category]]></item>
+		<item name="wcf.acp.rgalleryimport.local.cat.desc"><![CDATA[Category for the imported images.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.success"><![CDATA[{$imported} images were imported.]]></item>
+		<item name="wcf.acp.rgalleryimport.local.error"><![CDATA[Following images could not be imported:]]></item>
+	</category>
+</language>

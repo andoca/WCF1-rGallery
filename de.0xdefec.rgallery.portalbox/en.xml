@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="en">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.rgalleryleft.title"><![CDATA[rGallery (left)]]></item>
+		<item name="wbb.portal.box.rgallerycenter.title"><![CDATA[rGallery (center)]]></item>
+		<item name="wbb.portal.box.rgalleryright.title"><![CDATA[rGallery (right)]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.rgallery"><![CDATA[rGallery]]></item>
+		<item name="wcf.acp.option.category.portal.rgallery.description"/>
+	</category>
+	<category name="de.0xdefec.rgallery.portalbox">
+		<item name="de.0xdefec.rgallery.portalbox.title"><![CDATA[New in the gallery]]></item>
+	</category>
+</language>
